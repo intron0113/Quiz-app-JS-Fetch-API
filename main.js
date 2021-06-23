@@ -52,7 +52,7 @@
 
   startButton.addEventListener('click', () => {
     startButton.hidden = true;
-    fetchQuizData(1);
+    await fetchQuizData(1);
   });
 
   const fetchQuizData = async (index) => {
